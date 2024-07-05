@@ -19,41 +19,18 @@
     </template>
     <template slot="navbar-menu">
       <li class="nav-item">
-        <a class="nav-link" target="_blank">
+        <router-link class="nav-link" to="#povo">
           <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Home</p>
-        </a>
+          <p>Com o povo!</p>
+        </router-link>
       </li>
-      <drop-down
-        tag="li"
-        title="O que faremos?"
-        icon="now-ui-icons design_app"
-        class="nav-item">
-        <nav-link to="/">
-          <i class="now-ui-icons business_chart-pie-36"></i> All components
-        </nav-link>
-        <a
-          href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
-          target="_blank"
-          class="dropdown-item">
-          <i class="now-ui-icons design_bullet-list-67"></i> Documentation
-        </a>
-      </drop-down>
-      <drop-down
-        tag="li"
-        title="Como faremos"
-        icon="now-ui-icons design_image"
-        class="nav-item">
-        <nav-link to="/landing">
-          <i class="now-ui-icons education_paper"></i> Landing
-        </nav-link>
-        <nav-link to="/login">
-          <i class="now-ui-icons users_circle-08"></i> Login
-        </nav-link>
-        <nav-link to="/profile">
-          <i class="now-ui-icons users_single-02"></i> Profile
-        </nav-link>
-      </drop-down>
+      <li class="nav-item">
+        <router-link class="nav-link" to="#projetos">
+          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
+          <p>Nossos projetos</p>
+        </router-link>
+      </li>
+
       <li class="nav-item">
         <a
           class="nav-link"
@@ -114,9 +91,9 @@ export default {
     colorOnScroll: Number,
   },
   components: {
-    DropDown,
+    //DropDown,
     Navbar,
-    NavLink,
+    //NavLink,
     [Popover.name]: Popover,
   },
 };

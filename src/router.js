@@ -10,6 +10,7 @@ import MainFooter from './layout/MainFooter.vue';
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   linkExactActiveClass: 'active',
   routes: [
     {
@@ -26,7 +27,7 @@ export default new Router({
       name: 'landing',
       components: { default: Landing, header: MainNavbar, footer: MainFooter },
       props: {
-        header: { colorOnScroll: 400 },
+        header: { colorOnScroll: 200 },
         footer: { backgroundColor: 'black' },
       },
     },

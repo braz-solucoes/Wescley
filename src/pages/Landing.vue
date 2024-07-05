@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div class="page-header page-header-small">
+    <div class="page-header page-header">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/um.png')">
+        style="background-image: url('img/bannerfinal.png')">
       </parallax>
       <div class="content-center">
         <div class="container">
           <transition appear>
-            <div class="text-center">
-              <img src="img/dois.png" alt="" style="width: 480px" />
+            <div class="text-right">
+              <img src="img/dois.png" alt="" style="width: 700px" />
             </div>
           </transition>
         </div>
@@ -21,9 +21,21 @@
               <img
                 src="img/avantesemfundo.png"
                 alt=""
-                style="width: 230px; margin: 25px 0px 0px -50px" />
+                style="width: 230px; margin: 25px 0px 0px 50px" />
             </div>
           </transition>
+        </div>
+        <div class="content-center">
+          <div class="container">
+            <transition appear>
+              <div class="text-left">
+                <img
+                  src="img/compromissosemfundo.png"
+                  alt=""
+                  style="width: 700px; margin: 0px 0px 500px -300px" />
+              </div>
+            </transition>
+          </div>
         </div>
       </div>
     </div>
@@ -32,7 +44,7 @@
         <div class="row" style="opacity: 0.8">
           <div class="col-md-8 ml-auto mr-auto text-center">
             <transition appear="">
-              <h2 class="title">Com o povo, para o povo!</h2>
+              <h2 class="title" id="povo">Com o povo, para o povo!</h2>
             </transition>
           </div>
         </div>
@@ -42,17 +54,7 @@
             <div class="col-md-6">
               <div
                 class="image-container image-left"
-                style="background-image: url('img/cortada2.jpg')">
-                <!-- First image on the left side -->
-                <!-- <p class="blockquote blockquote-primary">
-                  "Over the span of the satellite record, Arctic sea ice has
-                  been declining significantly, while sea ice in the
-                  Antarctichas increased very slightly"
-                  <br />
-                  <br />
-                  <small>-NOAA</small>
-                </p> -->
-              </div>
+                style="background-image: url('img/cortada2.jpg')"></div>
               <!-- Second image on the left side of the article -->
               <!-- <div
                 class="image-container"
@@ -65,7 +67,7 @@
                   class="image-container image-right"
                   style="background-image: url('img/cortada1.jpg')"></div>
               </transition>
-              <!-- <h3>
+              <h3>
                 So what does the new record for the lowest level of winter ice
                 actually mean
               </h3>
@@ -78,23 +80,6 @@
                 year-by-year, for all kinds of natural reasons, there’s huge
                 variety of the state of the ice.
               </p>
-              <p>
-                For a start, it does not automatically follow that a record
-                amount of ice will melt this summer. More important for
-                determining the size of the annual thaw is the state of the
-                weather as the midnight sun approaches and temperatures rise.
-                But over the more than 30 years of satellite records, scientists
-                have observed a clear pattern of decline, decade-by-decade.
-              </p>
-              <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
-              </p> -->
             </div>
           </div>
         </div>
@@ -146,17 +131,17 @@
         style="background-image: url('img/agorabanner.png')">
         <div class="container">
           <transition appear="">
-            <h2 class="title" id="teste">Nossos projetos</h2>
+            <h2 class="title" id="projetos">Nossos projetos</h2>
           </transition>
           <div class="team">
             <div class="row">
               <div class="col-md-4">
-                <div class="team-player" style="background-color: #f15a01">
+                <div class="" style="background-color: #f15a01">
                   <img
-                    src="img/agoraredondo.png"
+                    src="img/agoraquadrado.png"
                     alt="Thumbnail Image"
-                    class="rounded-circle img-fluid img-raised"
-                    style="margin-top: 1cm" />
+                    class="img-fluid img-raised"
+                    style="padding: " />
                   <h4 class="title1">Familia</h4>
                   <p class="category text-primary">Model</p>
                   <p class="description">
