@@ -8,20 +8,20 @@
       <div class="content-center">
         <div class="container">
           <transition appear>
-            <h1 class="title1">Vote 70</h1>
-          </transition>
-          <transition appear>
             <div class="text-center">
-              <img src="img/dois.png" alt="" style="width: 550px" />
-              <!-- <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-              <i class="fab fa-google-plus"></i>
-            </a> -->
+              <img src="img/dois.png" alt="" style="width: 480px" />
+            </div>
+          </transition>
+        </div>
+      </div>
+      <div class="content-center">
+        <div class="container">
+          <transition appear>
+            <div class="text-left">
+              <img
+                src="img/avantesemfundo.png"
+                alt=""
+                style="width: 230px; margin: 25px 0px 0px -50px" />
             </div>
           </transition>
         </div>
@@ -103,14 +103,50 @@
 
     <!-- <card class="card-image"></card> -->
     <tabs-section></tabs-section>
-    <carousel-section></carousel-section>
+    <div class="section">
+      <div class="">
+        <div class="row">
+          <div class="col-md-6">
+            <carousel-section></carousel-section>
+          </div>
+          <div class="col-md-5">
+            <!-- First image on the left side -->
+            <p
+              class="blockquote-sucess blockquote-success"
+              style="
+                margin-top: 3cm;
+                background-color: #fff;
+                padding: 15px;
+                border-radius: 10px;
+                color: #f15a01;
+                font-weight: bold;
+              ">
+              "Over the span of the satellite record, Arctic sea ice has been
+              declining significantly, while sea ice in the Antarctichas
+              incre10pxased very slightly"
+              <br />
+              <br />
+              <mid>-Fulano de tal</mid>
+            </p>
+            <p class="blockquote blockquote-primary" style="margin-top: 2cm">
+              "Over the span of the satellite record, Arctic sea ice has been
+              declining significantly, while sea ice in the Antarctichas
+              increased very slightly"
+              <br />
+              <br />
+              <small>-NOAA</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <transition appear>
       <div
         class="section1 section-team text-center"
         style="background-image: url('img/agorabanner.png')">
         <div class="container">
           <transition appear="">
-            <h2 class="title">Nossos projetos</h2>
+            <h2 class="title" id="teste">Nossos projetos</h2>
           </transition>
           <div class="team">
             <div class="row">
@@ -285,38 +321,21 @@
     </transition>
     <div class="section section-contact-us text-center">
       <div class="container">
-        <h2 class="title">Want to work with us?</h2>
+        <h2 class="title">Entre em contato com a gente</h2>
         <p class="description">Your project is very important to us.</p>
         <div class="row">
           <div
-            class="col-lg-6 text-center ml-auto mr-auto col-md-8"
-            style="background-color: #ffff">
-            <fg-input
-              class="input-lg"
-              placeholder="Primeiro nome"
-              v-model="form.firstName"
-              addon-left-icon="now-ui-icons users_circle-08">
-            </fg-input>
-            <fg-input
-              class="input-lg"
-              placeholder="Email"
-              v-model="form.email"
-              addon-left-icon="now-ui-icons ui-1_email-85">
-            </fg-input>
-            <div class="textarea-container">
-              <textarea
-                class="form-control"
-                name="name"
-                rows="4"
-                cols="80"
-                v-model="form.message"
-                placeholder="Type a message..."></textarea>
-            </div>
-            <div class="send-button">
-              <n-button type="primary" round block size="lg"
-                >Envie mensagem</n-button
-              >
-            </div>
+            class="col-lg-6 text-center ml-auto mr-auto col-md-4"
+            style="background-color: ">
+            <a href="#carlos" class="btn btn-primary btn-icon btn-round btn-lg"
+              ><i class="fab fa-google-plus"></i
+            ></a>
+            <a href="#carlos" class="btn btn-primary btn-icon btn-round btn-lg"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a href="#carlos" class="btn btn-primary btn-icon btn-round btn-lg"
+              ><i class="fab fa-twitter"></i
+            ></a>
           </div>
         </div>
       </div>

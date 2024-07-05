@@ -70,7 +70,7 @@
           </card>
         </div>
         <div class="col-md-10 ml-auto col-xl-6 mr-auto">
-          <p class="category">principais vieis</p>
+          <p class="category">principais viés</p>
           <!-- Tabs with Background on Card -->
           <div class="card">
             <tabs
@@ -123,7 +123,7 @@
               </tab-pane>
               <tab-pane>
                 <template slot="label">
-                  <i class="now-ui-icons ui-2_settings-90"></i> contra drogas
+                  <i class="now-ui-icons ui-2_settings-90"></i>Drogas
                 </template>
                 <p>
                   "I will be the leader of a company that ends up being worth
