@@ -3,13 +3,17 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/BANNER.jpg')">
+        style="background-image: url('img/um.png')">
       </parallax>
       <div class="content-center">
         <div class="container">
-          <h1 class="title1 animacao">Vote 70</h1>
-          <div class="text-center">
-            <!-- <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+          <transition appear>
+            <h1 class="title1">Vote 70</h1>
+          </transition>
+          <transition appear>
+            <div class="text-center">
+              <img src="img/dois.png" alt="" style="width: 550px" />
+              <!-- <a href="#pablo" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
             </a>
             <a href="#pablo" class="btn btn-primary btn-icon btn-round">
@@ -18,7 +22,8 @@
             <a href="#pablo" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-google-plus"></i>
             </a> -->
-          </div>
+            </div>
+          </transition>
         </div>
       </div>
     </div>
@@ -26,7 +31,9 @@
       <div class="container">
         <div class="row" style="opacity: 0.8">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Com o povo, para o povo!</h2>
+            <transition appear="">
+              <h2 class="title">Com o povo, para o povo!</h2>
+            </transition>
           </div>
         </div>
         <div class="separator separator-primary"></div>
@@ -34,7 +41,7 @@
           <div class="row">
             <div class="col-md-6">
               <div
-                class="image-container image-left animacao"
+                class="image-container image-left"
                 style="background-image: url('img/cortada2.jpg')">
                 <!-- First image on the left side -->
                 <!-- <p class="blockquote blockquote-primary">
@@ -53,9 +60,11 @@
             </div>
             <div class="col-md-5">
               <!-- First image on the right side, above the article -->
-              <div
-                class="image-container image-right animacao"
-                style="background-image: url('img/cortada1.jpg')"></div>
+              <transition appear>
+                <div
+                  class="image-container image-right"
+                  style="background-image: url('img/cortada1.jpg')"></div>
+              </transition>
               <!-- <h3>
                 So what does the new record for the lowest level of winter ice
                 actually mean
@@ -93,185 +102,187 @@
     </div>
 
     <!-- <card class="card-image"></card> -->
-
+    <tabs-section></tabs-section>
     <carousel-section></carousel-section>
-    <div
-      class="section1 section-team text-center"
-      style="background-image: url('img/agorabanner.png')">
-      <div class="container">
-        <h2 class="title">Nossos projetos</h2>
-        <div class="team">
-          <div class="row">
-            <div class="col-md-4">
-              <div
-                class="team-player animacao"
-                style="background-color: #f15a01">
-                <img
-                  src="img/agoraredondo.png"
-                  alt="Thumbnail Image"
-                  class="rounded-circle img-fluid img-raised"
-                  style="margin-top: 1cm" />
-                <h4 class="title1">Familia</h4>
-                <p class="category text-primary">Model</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-facebook-square"></i
-                ></a>
+    <transition appear>
+      <div
+        class="section1 section-team text-center"
+        style="background-image: url('img/agorabanner.png')">
+        <div class="container">
+          <transition appear="">
+            <h2 class="title">Nossos projetos</h2>
+          </transition>
+          <div class="team">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="team-player" style="background-color: #f15a01">
+                  <img
+                    src="img/agoraredondo.png"
+                    alt="Thumbnail Image"
+                    class="rounded-circle img-fluid img-raised"
+                    style="margin-top: 1cm" />
+                  <h4 class="title1">Familia</h4>
+                  <p class="category text-primary">Model</p>
+                  <p class="description">
+                    You can write here details about one of your team members.
+                    You can give more details about what they do. Feel free to
+                    add some <a href="#">links</a> for people to be able to
+                    follow them outside the site.
+                  </p>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div
-                class="team-player animacao"
-                style="background-color: #f15a01">
-                <img
-                  src="img/agoraredondo.png"
-                  alt="Thumbnail Image"
-                  class="rounded-circle img-fluid img-raised"
-                  style="margin-top: 1cm" />
-                <h4 class="title1">Educação</h4>
-                <p class="category text-primary">Designer</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
+
+              <div class="col-md-4">
+                <div class="team-player" style="background-color: #f15a01">
+                  <img
+                    src="img/agoraredondo.png"
+                    alt="Thumbnail Image"
+                    class="rounded-circle img-fluid img-raised"
+                    style="margin-top: 1cm" />
+
+                  <h4 class="title1">Educação</h4>
+                  <p class="category text-primary">Designer</p>
+                  <p class="description">
+                    You can write here details about one of your team members.
+                    You can give more details about what they do. Feel free to
+                    add some <a href="#">links</a> for people to be able to
+                    follow them outside the site.
+                  </p>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div
-                class="team-player animacao"
-                style="background-color: #f15a01">
-                <img
-                  src="img/agoraquadrado.png"
-                  alt="Thumbnail Image"
-                  class="rounded img-fluid img-raised"
-                  style="margin-top: 1cm" />
-                <h4 class="title1">Saúde</h4>
-                <p class="category text-primary">Fashion</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-google-plus"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
+              <div class="col-md-4">
+                <div
+                  class="team-player animacao"
+                  style="background-color: #f15a01">
+                  <img
+                    src="img/agoraquadrado.png"
+                    alt="Thumbnail Image"
+                    class="rounded img-fluid img-raised"
+                    style="margin-top: 1cm" />
+                  <h4 class="title1">Saúde</h4>
+                  <p class="category text-primary">Fashion</p>
+                  <p class="description">
+                    You can write here details about one of your team members.
+                    You can give more details about what they do. Feel free to
+                    add some <a href="#">links</a> for people to be able to
+                    follow them outside the site.
+                  </p>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-google-plus"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="team">
-          <div class="row">
-            <div class="col-md-4">
-              <div
-                class="team-player animacao"
-                style="background-color: #f15a01">
-                <img
-                  src="img/agoraredondo.png"
-                  alt="Thumbnail Image"
-                  class="rounded-circle img-fluid img-raised"
-                  style="margin-top: 1cm" />
-                <h4 class="title1">Familia</h4>
-                <p class="category text-primary">Model</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-facebook-square"></i
-                ></a>
+          <div class="team">
+            <div class="row">
+              <div class="col-md-4">
+                <div
+                  class="team-player animacao"
+                  style="background-color: #f15a01">
+                  <img
+                    src="img/agoraredondo.png"
+                    alt="Thumbnail Image"
+                    class="rounded-circle img-fluid img-raised"
+                    style="margin-top: 1cm" />
+                  <h4 class="title1">Familia</h4>
+                  <p class="category text-primary">Model</p>
+                  <p class="description">
+                    You can write here details about one of your team members.
+                    You can give more details about what they do. Feel free to
+                    add some <a href="#">links</a> for people to be able to
+                    follow them outside the site.
+                  </p>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div
-                class="team-player animacao"
-                style="background-color: #f15a01">
-                <img
-                  src="img/agoraredondo.png"
-                  alt="Thumbnail Image"
-                  class="rounded-circle img-fluid img-raised"
-                  style="margin-top: 1cm" />
-                <h4 class="title1">Educação</h4>
-                <p class="category text-primary">Designer</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
+              <div class="col-md-4">
+                <div
+                  class="team-player animacao"
+                  style="background-color: #f15a01">
+                  <img
+                    src="img/agoraredondo.png"
+                    alt="Thumbnail Image"
+                    class="rounded-circle img-fluid img-raised"
+                    style="margin-top: 1cm" />
+                  <h4 class="title1">Educação</h4>
+                  <p class="category text-primary">Designer</p>
+                  <p class="description">
+                    You can write here details about one of your team members.
+                    You can give more details about what they do. Feel free to
+                    add some <a href="#">links</a> for people to be able to
+                    follow them outside the site.
+                  </p>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <div
-                class="team-player animacao"
-                style="background-color: #f15a01">
-                <img
-                  src="img/agoraquadrado.png"
-                  alt="Thumbnail Image"
-                  class="rounded img-fluid img-raised"
-                  style="margin-top: 1cm" />
-                <h4 class="title1">Saúde</h4>
-                <p class="category text-primary">Fashion</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-google-plus"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
+              <div class="col-md-4">
+                <div
+                  class="team-player animacao"
+                  style="background-color: #f15a01">
+                  <img
+                    src="img/agoraquadrado.png"
+                    alt="Thumbnail Image"
+                    class="rounded img-fluid img-raised"
+                    style="margin-top: 1cm" />
+                  <h4 class="title1">Saúde</h4>
+                  <p class="category text-primary">Fashion</p>
+                  <p class="description">
+                    You can write here details about one of your team members.
+                    You can give more details about what they do. Feel free to
+                    add some <a href="#">links</a> for people to be able to
+                    follow them outside the site.
+                  </p>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-google-plus"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </transition>
     <div class="section section-contact-us text-center">
       <div class="container">
         <h2 class="title">Want to work with us?</h2>
@@ -315,7 +326,7 @@
 <script>
 import { Button, FormGroupInput } from '@/components';
 import CarouselSection from './components/CarouselSection';
-import Card from '@/components/Cards/Card';
+import TabsSection from './components/Tabs';
 export default {
   name: 'landing',
   bodyClass: 'landing-page',
@@ -323,6 +334,7 @@ export default {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput,
     CarouselSection,
+    TabsSection,
     // Card,
   },
   data() {
@@ -336,4 +348,14 @@ export default {
   },
 };
 </script>
-<style></style>
+
+<style scoped>
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 2s;
+}
+.v-enter,
+.v-leave-to {
+  opacity: 0;
+}
+</style>

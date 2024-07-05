@@ -2,20 +2,19 @@
   <div class="section section-tabs">
     <div class="container">
       <div class="title">
-        <h4>Navigation Tabs</h4>
+        <h4>Algo em texto</h4>
       </div>
       <div class="row">
         <div class="col-md-10 ml-auto col-xl-6 mr-auto">
-          <p class="category">Tabs with Icons on Card</p>
+          <p class="category">Por que votar na gente</p>
           <!-- Nav tabs -->
           <card>
             <tabs
               slot="raw-content"
-              tab-content-classes="tab-content-padding text-center"
-            >
+              tab-content-classes="tab-content-padding text-center">
               <tab-pane>
                 <template slot="label">
-                  <i class="now-ui-icons objects_umbrella-13"></i> Home
+                  <i class="now-ui-icons objects_umbrella-13"></i> vote
                 </template>
                 <p>
                   I think that’s a responsibility that I have, to push
@@ -29,7 +28,7 @@
               </tab-pane>
               <tab-pane>
                 <template slot="label">
-                  <i class="now-ui-icons shopping_cart-simple"></i> Profile
+                  <i class="now-ui-icons shopping_cart-simple"></i> home
                 </template>
                 <p>
                   I will be the leader of a company that ends up being worth
@@ -43,7 +42,7 @@
               </tab-pane>
               <tab-pane>
                 <template slot="label">
-                  <i class="now-ui-icons shopping_shop"></i> Messages
+                  <i class="now-ui-icons shopping_shop"></i> coligação
                 </template>
                 <p>
                   I think that’s a responsibility that I have, to push
@@ -57,7 +56,7 @@
               </tab-pane>
               <tab-pane>
                 <template slot="label">
-                  <i class="now-ui-icons ui-2_settings-90"></i> Settings
+                  <i class="now-ui-icons ui-2_settings-90"></i> Outros
                 </template>
                 <p>
                   "I will be the leader of a company that ends up being worth
@@ -71,7 +70,7 @@
           </card>
         </div>
         <div class="col-md-10 ml-auto col-xl-6 mr-auto">
-          <p class="category">Tabs with Background on Card</p>
+          <p class="category">principais vieis</p>
           <!-- Tabs with Background on Card -->
           <div class="card">
             <tabs
@@ -79,11 +78,10 @@
               type="neutral"
               tab-nav-wrapper-classes="card-header"
               tab-content-classes="card-body text-center"
-              data-background-color="orange"
-            >
+              data-background-color="orange">
               <tab-pane>
                 <template slot="label">
-                  <i class="now-ui-icons objects_umbrella-13"></i> Home
+                  <i class="now-ui-icons objects_umbrella-13"></i> familia
                 </template>
                 <p>
                   I think that’s a responsibility that I have, to push
@@ -97,7 +95,7 @@
               </tab-pane>
               <tab-pane>
                 <template slot="label">
-                  <i class="now-ui-icons shopping_cart-simple"></i> Profile
+                  <i class="now-ui-icons shopping_cart-simple"></i> Educação
                 </template>
                 <p>
                   I will be the leader of a company that ends up being worth
@@ -111,7 +109,7 @@
               </tab-pane>
               <tab-pane>
                 <template slot="label">
-                  <i class="now-ui-icons shopping_shop"></i> Messages
+                  <i class="now-ui-icons shopping_shop"></i> saude
                 </template>
                 <p>
                   I think that’s a responsibility that I have, to push
@@ -125,7 +123,7 @@
               </tab-pane>
               <tab-pane>
                 <template slot="label">
-                  <i class="now-ui-icons ui-2_settings-90"></i> Settings
+                  <i class="now-ui-icons ui-2_settings-90"></i> contra drogas
                 </template>
                 <p>
                   "I will be the leader of a company that ends up being worth
@@ -150,8 +148,8 @@ export default {
   components: {
     Card,
     Tabs,
-    TabPane
-  }
+    TabPane,
+  },
 };
 </script>
 <style>
