@@ -44,7 +44,9 @@
         <div class="row" style="opacity: 0.85">
           <div class="col-md-8 ml-auto mr-auto text-center">
             <transition appear="">
-              <h2 class="title" id="povo">Com o povo, para o povo!</h2>
+              <h2 class="title" id="povo" style="text-transform: uppercase">
+                Com o povo, para o povo!
+              </h2>
             </transition>
           </div>
         </div>
@@ -65,8 +67,9 @@
                   padding: 5px;
                   border-radius: 10px;
                   font-size: 500%;
+                  text-transform: uppercase;
                 ">
-                Diálogo e ação!
+                DiáloGo e ação!
               </h1>
               <!-- Second image on the left side of the article -->
               <!-- <div
