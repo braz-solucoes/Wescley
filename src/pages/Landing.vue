@@ -42,10 +42,11 @@
     <div class="section section-about-us">
       <div class="container">
         <div class="row" style="opacity: 0.85">
+          brazsolucoes.
           <div class="col-md-8 ml-auto mr-auto text-center">
             <transition appear="">
               <h2 class="title" id="povo" style="text-transform: uppercase">
-                Com o povo, para o povo!
+                O povo pediu, a mudança chegou!
               </h2>
             </transition>
           </div>
@@ -214,16 +215,15 @@
           </transition>
           <div class="team">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4" style="">
                 <div class="" style="background-color: #f15a01">
                   <img
                     src="img/agoraquadrado.png"
                     alt="Thumbnail Image"
-                    class="img-fluid img-raised"
-                    style="padding: " />
-                  <h4 class="title1">Familia</h4>
-                  <p class="category text-primary">Model</p>
-                  <p class="description">
+                    class=""
+                    style="padding: 50px; background-color: #f15a01" />
+                  <h4 class="descricao">Familia</h4>
+                  <p class="descricao">
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
                     add some <a href="#">links</a> for people to be able to
@@ -244,14 +244,14 @@
               <div class="col-md-4">
                 <div class="team-player" style="background-color: #f15a01">
                   <img
-                    src="img/agoraredondo.png"
+                    src="img/agoraquadrado.png"
                     alt="Thumbnail Image"
-                    class="rounded-circle img-fluid img-raised"
-                    style="margin-top: 1cm" />
+                    class=""
+                    style="padding: 50px; background-color: #f15a01" />
 
-                  <h4 class="title1">Educação</h4>
-                  <p class="category text-primary">Designer</p>
-                  <p class="description">
+                  <h4 class="descricao">Educação</h4>
+                  <!-- <p class="category text-primary">Designer</p> -->
+                  <p class="descricao">
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
                     add some <a href="#">links</a> for people to be able to
@@ -266,17 +266,15 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div
-                  class="team-player animacao"
-                  style="background-color: #f15a01">
+                <div class="team-player" style="background-color: #f15a01">
                   <img
                     src="img/agoraquadrado.png"
                     alt="Thumbnail Image"
-                    class="rounded img-fluid img-raised"
-                    style="margin-top: 1cm" />
-                  <h4 class="title1">Saúde</h4>
-                  <p class="category text-primary">Fashion</p>
-                  <p class="description">
+                    class=""
+                    style="padding: 50px; background-color: #f15a01" />
+                  <h4 class="descricao">Saúde</h4>
+
+                  <p class="descricao">
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
                     add some <a href="#">links</a> for people to be able to
@@ -442,5 +440,9 @@ export default {
 .v-enter,
 .v-leave-to {
   opacity: 0;
+}
+.descricao {
+  color: azure;
+  font-weight: bold;
 }
 </style>
