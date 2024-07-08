@@ -41,7 +41,7 @@
     </div>
     <div class="section section-about-us">
       <div class="container">
-        <div class="row" style="opacity: 0.8">
+        <div class="row" style="opacity: 0.85">
           <div class="col-md-8 ml-auto mr-auto text-center">
             <transition appear="">
               <h2 class="title" id="povo">Com o povo, para o povo!</h2>
@@ -55,23 +55,41 @@
               <div
                 class="image-container image-left"
                 style="background-image: url('img/cortada2.jpg')"></div>
+              <h1
+                style="
+                  margin-top: 3cm;
+                  color: #ffff;
+                  font-weight: bold;
+                  text-align: center;
+                  background-color: #f15a01;
+                  padding: 5px;
+                  border-radius: 10px;
+                  font-size: 500%;
+                ">
+                Diálogo e ação!
+              </h1>
               <!-- Second image on the left side of the article -->
               <!-- <div
                 class="image-container"
                 style="background-image: url('img/cortada1.jpg')"></div> -->
             </div>
-            <div class="col-md-5">
+            <div class="col-md-6">
               <!-- First image on the right side, above the article -->
               <transition appear>
                 <div
                   class="image-container image-right"
                   style="background-image: url('img/cortada1.jpg')"></div>
               </transition>
-              <h3>
-                So what does the new record for the lowest level of winter ice
-                actually mean
-              </h3>
-              <p>
+
+              <p
+                class="blockquote-sucess blockquote-success"
+                style="
+                  background-color: #fff;
+                  padding: 15px;
+                  border-radius: 10px;
+                  color: #f15a01;
+                  font-weight: bold;
+                ">
                 The Arctic Ocean freezes every winter and much of the sea-ice
                 then thaws every summer, and that process will continue whatever
                 happens with climate change. Even if the Arctic continues to be
@@ -85,9 +103,9 @@
         </div>
       </div>
     </div>
-
-    <!-- <card class="card-image"></card> -->
-    <tabs-section></tabs-section>
+    <div class="row">
+      <div class="col-md-10 ml-auto col-xl-5 mr-auto"></div>
+    </div>
     <div class="section">
       <div class="">
         <div class="row">
@@ -113,14 +131,72 @@
               <br />
               <mid>-Fulano de tal</mid>
             </p>
-            <p class="blockquote blockquote-primary" style="margin-top: 2cm">
+            <card style="border-radius: 10px">
+              <tabs
+                centered
+                type="neutral"
+                tab-nav-wrapper-classes="card-header"
+                data-background-color="orange">
+                <tab-pane>
+                  <template slot="label">
+                    <i class="now-ui-icons objects_umbrella-13"></i> Vote
+                  </template>
+                  <p>
+                    I think that’s a responsibility that I have, to push
+                    possibilities, to show people, this is the level that things
+                    could be at. So when you get something that has the name
+                    Kanye West on it, it’s supposed to be pushing the furthest
+                    possibilities. I will be the leader of a company that ends
+                    up being worth billions of dollars, because I got the
+                    answers. I understand culture. I am the nucleus.
+                  </p>
+                </tab-pane>
+                <tab-pane>
+                  <template slot="label">
+                    <i class="now-ui-icons shopping_cart-simple"></i> home
+                  </template>
+                  <p>
+                    I will be the leader of a company that ends up being worth
+                    billions of dollars, because I got the answers. I understand
+                    culture. I am the nucleus. I think that’s a responsibility
+                    that I have, to push possibilities, to show people, this is
+                    the level that things could be at. I think that’s a
+                    responsibility that I have, to push possibilities, to show
+                    people, this is the level that things could be at.
+                  </p>
+                </tab-pane>
+                <tab-pane>
+                  <template slot="label">
+                    <i class="now-ui-icons shopping_shop"></i> coligação
+                  </template>
+                  <p>
+                    I think that’s a responsibility that I have, to push
+                    possibilities, to show people, this is the level that things
+                    could be at. So when you get something that has the name
+                    Kanye West on it, it’s supposed to be pushing the furthest
+                    possibilities. I will be the leader of a company that ends
+                    up being worth billions of dollars, because I got the
+                    answers. I understand culture. I am the nucleus.
+                  </p>
+                </tab-pane>
+                <tab-pane>
+                  <template slot="label">
+                    <i class="now-ui-icons ui-2_settings-90"></i> Outros
+                  </template>
+                  <img
+                    src="img/avantesemfundo.png"
+                    style="display: block; margin: auto; margin-bottom: -1cm" />
+                </tab-pane>
+              </tabs>
+            </card>
+            <!-- <p class="blockquote blockquote-primary" style="margin-top: 2cm">
               "Over the span of the satellite record, Arctic sea ice has been
               declining significantly, while sea ice in the Antarctichas
               increased very slightly"
               <br />
               <br />
               <small>-NOAA</small>
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
@@ -216,7 +292,7 @@
               </div>
             </div>
           </div>
-          <div class="team">
+          <!-- <div class="team">
             <div class="row">
               <div class="col-md-4">
                 <div
@@ -300,7 +376,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </transition>
@@ -331,6 +407,7 @@
 import { Button, FormGroupInput } from '@/components';
 import CarouselSection from './components/CarouselSection';
 import TabsSection from './components/Tabs';
+import { Card, Tabs, TabPane } from '@/components';
 export default {
   name: 'landing',
   bodyClass: 'landing-page',
@@ -338,8 +415,9 @@ export default {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput,
     CarouselSection,
-    TabsSection,
-    // Card,
+    Card,
+    Tabs,
+    TabPane,
   },
   data() {
     return {

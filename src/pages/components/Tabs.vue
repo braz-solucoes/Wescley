@@ -1,8 +1,8 @@
 <template>
   <div class="section section-tabs">
-    <div class="container">
+    <div class="container" style="background-color: blue">
       <div class="title">
-        <h4>Algo em texto</h4>
+        <h4 style="text-align: center">Algo em texto</h4>
       </div>
       <div class="row">
         <div class="col-md-10 ml-auto col-xl-6 mr-auto">

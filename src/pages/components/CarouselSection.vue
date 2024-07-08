@@ -4,9 +4,12 @@
       <div class="title"></div>
       <div class="row justify-content-center">
         <div class="col-12">
-          <el-carousel height="500px">
+          <el-carousel height="500px" style="border-radius: 10px">
             <el-carousel-item>
-              <img class="d-block" src="img/bg1.jpg" alt="First slide" />
+              <img
+                class="d-block"
+                src="img/agoraquadrado.png"
+                alt="First slide" />
               <div class="carousel-caption d-none d-md-card">
                 <h5>Nature, United States</h5>
               </div>

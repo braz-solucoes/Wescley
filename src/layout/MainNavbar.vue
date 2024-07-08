@@ -21,13 +21,13 @@
       <li class="nav-item">
         <router-link class="nav-link" to="#povo">
           <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Com o povo!</p>
+          <p style="font-weight: bold">Com o povo!</p>
         </router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="#projetos">
           <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>Nossos projetos</p>
+          <p style="font-weight: bold">Nossos projetos</p>
         </router-link>
       </li>
 
@@ -37,7 +37,7 @@
           href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
           target="_blank">
           <i class="now-ui-icons arrows-1_share-66"></i>
-          <p>Nossos projetos</p>
+          <p style="font-weight: bold">Nossos projetos</p>
         </a>
       </li>
 
