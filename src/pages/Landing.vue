@@ -42,10 +42,16 @@
     <div class="section section-about-us">
       <div class="container">
         <div class="row" style="opacity: 0.85">
-          brazsolucoes.
           <div class="col-md-8 ml-auto mr-auto text-center">
             <transition appear="">
-              <h2 class="title" id="povo" style="text-transform: uppercase">
+              <h2
+                class=""
+                id="povo"
+                style="
+                  text-transform: uppercase;
+                  color: aliceblue;
+                  font-weight: bold;
+                ">
                 O povo pediu, a mudança chegou!
               </h2>
             </transition>
@@ -57,7 +63,12 @@
             <div class="col-md-6">
               <div
                 class="image-container image-left"
-                style="background-image: url('img/cortada2.jpg')"></div>
+                style="
+                  background-image: url('img/patriota.gif');
+                  border-radius: 10px;
+                "></div>
+            </div>
+            <div class="col-md-6">
               <h1
                 style="
                   margin-top: 3cm;
@@ -65,164 +76,126 @@
                   font-weight: bold;
                   text-align: center;
                   background-color: #f15a01;
-                  padding: 5px;
+                  padding: 20px;
                   border-radius: 10px;
-                  font-size: 500%;
-                  text-transform: uppercase;
+                  font-size: 250%;
                 ">
-                DiáloGo e ação!
+                O povo pediu, a mudança chegou!!
               </h1>
-              <!-- Second image on the left side of the article -->
-              <!-- <div
-                class="image-container"
-                style="background-image: url('img/cortada1.jpg')"></div> -->
-            </div>
-            <div class="col-md-6">
-              <!-- First image on the right side, above the article -->
-              <transition appear>
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/cortada1.jpg')"></div>
-              </transition>
-
               <p
-                class="blockquote-sucess blockquote-success"
                 style="
-                  background-color: #fff;
-                  padding: 15px;
-                  border-radius: 10px;
-                  color: #f15a01;
+                  color: #ffff;
+                  text-align: center;
                   font-weight: bold;
+                  background-color: #00bac1;
+                  padding: 30px 30px 40px;
+                  border-radius: 10px;
                 ">
                 The Arctic Ocean freezes every winter and much of the sea-ice
                 then thaws every summer, and that process will continue whatever
                 happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
+                <br />
+                <br />
+
+                <router-link to="#projetos" class="botao"
+                  >Plano de governo</router-link
+                >
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-10 ml-auto col-xl-5 mr-auto"></div>
-    </div>
-    <div class="section">
-      <div class="">
-        <div class="row">
-          <div class="col-md-6">
-            <carousel-section></carousel-section>
-          </div>
-          <div class="col-md-5">
-            <!-- First image on the left side -->
-            <p
-              class="blockquote-sucess blockquote-success"
-              style="
-                margin-top: 3cm;
-                background-color: #fff;
-                padding: 15px;
-                border-radius: 10px;
-                color: #f15a01;
-                font-weight: bold;
-              ">
-              "Over the span of the satellite record, Arctic sea ice has been
-              declining significantly, while sea ice in the Antarctichas
-              incre10pxased very slightly"
-              <br />
-              <br />
-              <mid>-Fulano de tal</mid>
+
+    <div class="section" style="background-color: #00bac1">
+      <div class="container">
+        <h1 class="planoh1" style="font-weight: bolder">Plano de governo</h1>
+        <p class="texto-box-plano-governo">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat
+        </p>
+        <br />
+        <br />
+        <div class="row" style="margin-bottom: 1cm">
+          <div class="coluna-md-4 box-plano-governo">
+            <h1 class="planoh1">.01</h1>
+            <h3 class="planoh3">Avante Família</h3>
+            <p class="texto-box-plano-governo">
+              hwefguiwefhwjnbncwuidwe dfwecfwe fuwedf weduhhq fi wf fuhfdhwf wf
+              wf9w fw98
             </p>
-            <card style="border-radius: 10px">
-              <tabs
-                centered
-                type="neutral"
-                tab-nav-wrapper-classes="card-header"
-                data-background-color="orange">
-                <tab-pane>
-                  <template slot="label">
-                    <i class="now-ui-icons objects_umbrella-13"></i> Vote
-                  </template>
-                  <p>
-                    I think that’s a responsibility that I have, to push
-                    possibilities, to show people, this is the level that things
-                    could be at. So when you get something that has the name
-                    Kanye West on it, it’s supposed to be pushing the furthest
-                    possibilities. I will be the leader of a company that ends
-                    up being worth billions of dollars, because I got the
-                    answers. I understand culture. I am the nucleus.
-                  </p>
-                </tab-pane>
-                <tab-pane>
-                  <template slot="label">
-                    <i class="now-ui-icons shopping_cart-simple"></i> home
-                  </template>
-                  <p>
-                    I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers. I understand
-                    culture. I am the nucleus. I think that’s a responsibility
-                    that I have, to push possibilities, to show people, this is
-                    the level that things could be at. I think that’s a
-                    responsibility that I have, to push possibilities, to show
-                    people, this is the level that things could be at.
-                  </p>
-                </tab-pane>
-                <tab-pane>
-                  <template slot="label">
-                    <i class="now-ui-icons shopping_shop"></i> coligação
-                  </template>
-                  <p>
-                    I think that’s a responsibility that I have, to push
-                    possibilities, to show people, this is the level that things
-                    could be at. So when you get something that has the name
-                    Kanye West on it, it’s supposed to be pushing the furthest
-                    possibilities. I will be the leader of a company that ends
-                    up being worth billions of dollars, because I got the
-                    answers. I understand culture. I am the nucleus.
-                  </p>
-                </tab-pane>
-                <tab-pane>
-                  <template slot="label">
-                    <i class="now-ui-icons ui-2_settings-90"></i> Outros
-                  </template>
-                  <img
-                    src="img/avantesemfundo.png"
-                    style="display: block; margin: auto; margin-bottom: -1cm" />
-                </tab-pane>
-              </tabs>
-            </card>
-            <!-- <p class="blockquote blockquote-primary" style="margin-top: 2cm">
-              "Over the span of the satellite record, Arctic sea ice has been
-              declining significantly, while sea ice in the Antarctichas
-              increased very slightly"
-              <br />
-              <br />
-              <small>-NOAA</small>
-            </p> -->
+          </div>
+
+          <div class="coluna-md-4 box-plano-governo">
+            <h1 class="planoh1">.02</h1>
+            <h3 class="planoh3">Avante Educação</h3>
+            <p class="texto-box-plano-governo">
+              hwefguiwefhwjnbncwuidwe dfwecfwe fuwedf weduhhq fi wf fuhfdhwf wf
+              wf9w fw98
+            </p>
+          </div>
+          <div class="coluna-md-4 box-plano-governo">
+            <h1 class="planoh1">.03</h1>
+            <h3 class="planoh3">Avante Saúde</h3>
+            <p class="texto-box-plano-governo">
+              hwefguiwefhwjnbncwuidwe dfwecfwe fuwedf weduhhq fi wf fuhfdhwf wf
+              wf9w fw98
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="coluna-md-4 box-plano-governo">
+            <h1 class="planoh1">.04</h1>
+            <h3 class="planoh3">Avante Mulheres</h3>
+            <p class="texto-box-plano-governo">
+              hwefguiwefhwjnbncwuidwe dfwecfwe fuwedf weduhhq fi wf fuhfdhwf wf
+              wf9w fw98
+            </p>
+          </div>
+
+          <div class="coluna-md-4 box-plano-governo">
+            <h1 class="planoh1">.05</h1>
+            <h3 class="planoh3">Avante Segurança</h3>
+            <p class="texto-box-plano-governo">
+              hwefguiwefhwjnbncwuidwe dfwecfwe fuwedf weduhhq fi wf fuhfdhwf wf
+              wf9w fw98
+            </p>
+          </div>
+          <div class="coluna-md-4 box-plano-governo">
+            <h1 class="planoh1">.06</h1>
+            <h3 class="planoh3">Avante Emprego</h3>
+            <p class="texto-box-plano-governo">
+              hwefguiwefhwjnbncwuidwe dfwecfwe fuwedf weduhhq fi wf fuhfdhwf wf
+              wf9w fw98
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <transition appear>
+    <transition appear="">
       <div
         class="section1 section-team text-center"
         style="background-image: url('img/agorabanner.png')">
+        <h1 class="planoh1">POR ONDE VAMOS COMEÇAR</h1>
+        <p class="texto-box-plano-governo">
+          heejiojgoieg uioeherguiero eiuhjerio geruig ieurogh iuerhg ierjhg
+          euirohg eruiog herouih goeuirg erouigj ioerg erioj gjeogjjg
+        </p>
         <div class="container">
-          <transition appear="">
-            <h2 class="title" id="projetos">Nossos projetos</h2>
-          </transition>
           <div class="team">
             <div class="row">
               <div class="col-md-4" style="">
-                <div class="" style="background-color: #f15a01">
+                <div class="team-player" style="background-color: #f15a01">
                   <img
-                    src="img/agoraquadrado.png"
+                    src="img/familia.png"
                     alt="Thumbnail Image"
                     class=""
-                    style="padding: 50px; background-color: #f15a01" />
+                    style="padding: 10px" />
+
                   <h4 class="descricao">Familia</h4>
+                  <hr />
                   <p class="descricao">
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
@@ -244,13 +217,13 @@
               <div class="col-md-4">
                 <div class="team-player" style="background-color: #f15a01">
                   <img
-                    src="img/agoraquadrado.png"
+                    src="img/educacao.png"
                     alt="Thumbnail Image"
                     class=""
-                    style="padding: 50px; background-color: #f15a01" />
+                    style="padding: 10px" />
 
                   <h4 class="descricao">Educação</h4>
-                  <!-- <p class="category text-primary">Designer</p> -->
+                  <hr />
                   <p class="descricao">
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
@@ -268,12 +241,12 @@
               <div class="col-md-4">
                 <div class="team-player" style="background-color: #f15a01">
                   <img
-                    src="img/agoraquadrado.png"
+                    src="img/saude.png"
                     alt="Thumbnail Image"
                     class=""
-                    style="padding: 50px; background-color: #f15a01" />
+                    style="padding: 10px; background-color: #f15a01" />
                   <h4 class="descricao">Saúde</h4>
-
+                  <hr />
                   <p class="descricao">
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
@@ -293,20 +266,19 @@
               </div>
             </div>
           </div>
-          <!-- <div class="team">
+          <div class="team">
             <div class="row">
-              <div class="col-md-4">
-                <div
-                  class="team-player animacao"
-                  style="background-color: #f15a01">
+              <div class="col-md-4" style="">
+                <div class="team-player" style="background-color: #f15a01">
                   <img
-                    src="img/agoraredondo.png"
+                    src="img/familia.png"
                     alt="Thumbnail Image"
-                    class="rounded-circle img-fluid img-raised"
-                    style="margin-top: 1cm" />
-                  <h4 class="title1">Familia</h4>
-                  <p class="category text-primary">Model</p>
-                  <p class="description">
+                    class=""
+                    style="padding: 10px" />
+
+                  <h4 class="descricao">Familia</h4>
+                  <hr />
+                  <p class="descricao">
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
                     add some <a href="#">links</a> for people to be able to
@@ -323,18 +295,18 @@
                   ></a>
                 </div>
               </div>
+
               <div class="col-md-4">
-                <div
-                  class="team-player animacao"
-                  style="background-color: #f15a01">
+                <div class="team-player" style="background-color: #f15a01">
                   <img
-                    src="img/agoraredondo.png"
+                    src="img/educacao.png"
                     alt="Thumbnail Image"
-                    class="rounded-circle img-fluid img-raised"
-                    style="margin-top: 1cm" />
-                  <h4 class="title1">Educação</h4>
-                  <p class="category text-primary">Designer</p>
-                  <p class="description">
+                    class=""
+                    style="padding: 10px" />
+
+                  <h4 class="descricao">Educação</h4>
+                  <hr />
+                  <p class="descricao">
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
                     add some <a href="#">links</a> for people to be able to
@@ -349,17 +321,15 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div
-                  class="team-player animacao"
-                  style="background-color: #f15a01">
+                <div class="team-player" style="background-color: #f15a01">
                   <img
-                    src="img/agoraquadrado.png"
+                    src="img/saude.png"
                     alt="Thumbnail Image"
-                    class="rounded img-fluid img-raised"
-                    style="margin-top: 1cm" />
-                  <h4 class="title1">Saúde</h4>
-                  <p class="category text-primary">Fashion</p>
-                  <p class="description">
+                    class=""
+                    style="padding: 10px; background-color: #f15a01" />
+                  <h4 class="descricao">Saúde</h4>
+                  <hr />
+                  <p class="descricao">
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
                     add some <a href="#">links</a> for people to be able to
@@ -377,27 +347,25 @@
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </transition>
-    <div class="section section-contact-us text-center">
+    <div
+      class="section section-contact-us text-center"
+      style="background-color: #00bac1">
       <div class="container">
-        <h2 class="title">Entre em contato com a gente</h2>
-        <p class="description">Your project is very important to us.</p>
+        <h2 class="title">
+          Entre em contato<br />
+          com a gente
+        </h2>
         <div class="row">
           <div
             class="col-lg-6 text-center ml-auto mr-auto col-md-4"
-            style="background-color: ">
-            <a href="#carlos" class="btn btn-primary btn-icon btn-round btn-lg"
-              ><i class="fab fa-google-plus"></i
-            ></a>
-            <a href="#carlos" class="btn btn-primary btn-icon btn-round btn-lg"
-              ><i class="fab fa-whatsapp"></i
-            ></a>
-            <a href="#carlos" class="btn btn-primary btn-icon btn-round btn-lg"
-              ><i class="fab fa-twitter"></i
-            ></a>
+            style="margin-top: 1cm">
+            <a href="#carlos" class="botao wppbtn"
+              ><i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
           </div>
         </div>
       </div>
@@ -415,10 +383,10 @@ export default {
   components: {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput,
-    CarouselSection,
-    Card,
-    Tabs,
-    TabPane,
+    //CarouselSection,
+    // Card,
+    // Tabs,
+    // TabPane,
   },
   data() {
     return {
@@ -443,6 +411,51 @@ export default {
 }
 .descricao {
   color: azure;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 10px;
+}
+/* plano de governo style */
+.planoh1,
+.planoh3 {
+  text-align: center;
+  color: orangered;
+}
+.planoh3 {
   font-weight: bold;
+}
+.box-plano-governo {
+  border-radius: 10px;
+
+  background-color: #dfdfdf;
+}
+.texto-box-plano-governo {
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+.coluna-md-4 {
+  -webkit-box-flex: 0;
+  flex: 0 0 33.333333%;
+  max-width: 32%;
+  margin: 5px;
+}
+hr {
+  background-color: #dfdfdf;
+  max-width: 300px;
+  border-radius: 10px;
+  position: relative;
+  height: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.botao {
+  border-radius: 20px;
+  background-color: #f15a01;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px;
+}
+.wppbtn {
+  padding: 20px 40px;
 }
 </style>

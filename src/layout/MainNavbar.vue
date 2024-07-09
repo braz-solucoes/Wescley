@@ -20,14 +20,14 @@
     <template slot="navbar-menu">
       <li class="nav-item">
         <router-link class="nav-link" to="#povo">
-          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p style="font-weight: bold">Com o povo!</p>
+          <i class="now-ui-icons"></i>
+          <p style="font-weight: bold; font-size: 130%">Com o povo!</p>
         </router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="#projetos">
-          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p style="font-weight: bold">Nossos projetos</p>
+          <i class="now-ui-icons"></i>
+          <p style="font-weight: bold; font-size: 130%">Plano de governo</p>
         </router-link>
       </li>
 
@@ -36,8 +36,8 @@
           class="nav-link"
           href="https://www.creative-tim.com/product/vue-now-ui-kit-pro"
           target="_blank">
-          <i class="now-ui-icons arrows-1_share-66"></i>
-          <p style="font-weight: bold">Nossos projetos</p>
+          <i class="now-ui-icons"></i>
+          <p style="font-weight: bold; font-size: 130%">Nossos projetos</p>
         </a>
       </li>
 
