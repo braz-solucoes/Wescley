@@ -109,7 +109,11 @@
 
     <div class="section" style="background-color: #00bac1">
       <div class="container">
-        <h1 class="planoh1" style="font-weight: bolder">Plano de governo</h1>
+        <h2
+          class="title"
+          style="font-size: 300%; color: #f15a01; text-align: center">
+          Plano de governo
+        </h2>
         <p class="texto-box-plano-governo">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -178,7 +182,9 @@
       <div
         class="section1 section-team text-center"
         style="background-image: url('img/agorabanner.png')">
-        <h1 class="planoh1">POR ONDE VAMOS COMEÇAR</h1>
+        <h2 class="title" style="color: #f15a01; font-size: 300%">
+          POR ONDE VAMOS COMEÇAR
+        </h2>
         <p class="texto-box-plano-governo">
           heejiojgoieg uioeherguiero eiuhjerio geruig ieurogh iuerhg ierjhg
           euirohg eruiog herouih goeuirg erouigj ioerg erioj gjeogjjg
