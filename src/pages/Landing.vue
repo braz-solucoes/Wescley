@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mobile">
     <div class="page-header page-header">
       <parallax
         class="page-header-image"
@@ -520,5 +520,10 @@ hr {
 }
 .semdisplay {
   display: none;
+}
+@media only screen and (max-width: 600px) {
+  div {
+    max-width: 600px;
+  }
 }
 </style>
