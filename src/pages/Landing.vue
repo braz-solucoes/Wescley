@@ -14,7 +14,33 @@
           </transition>
         </div>
       </div>
-      <div class="content-center">
+      <!-- Banner principal mobile -->
+      <div class="content-center" v-if="isMobile">
+        <div class="container">
+          <transition appear>
+            <div class="text-left">
+              <img
+                src="img/avantesemfundo.png"
+                alt=""
+                style="width: 130px; margin: 5px 0px 50px -60px" />
+            </div>
+          </transition>
+        </div>
+        <div class="content-center">
+          <div class="container">
+            <transition appear>
+              <div class="text-left">
+                <img
+                  src="img/compromissosemfundo.png"
+                  alt=""
+                  style="width: 200px; margin: 0px 0px 300px -150px" />
+              </div>
+            </transition>
+          </div>
+        </div>
+      </div>
+      <!-- versao desktop -->
+      <div class="content-center" v-else>
         <div class="container">
           <transition appear>
             <div class="text-left">
@@ -30,6 +56,14 @@
             <transition appear>
               <div class="text-left">
                 <img
+                  srcset="
+                    img/compromissosemfundo.png 320w,
+                    img/compromissosemfundo.png 480w,
+                    img/compromissosemfundo.png 800w
+                  "
+                  sizes="(max-width: 320px) 280px,
+                  (max-width: 480px) 440px,
+                  800px"
                   src="img/compromissosemfundo.png"
                   alt=""
                   style="width: 700px; margin: 0px 0px 500px -300px" />
@@ -42,15 +76,22 @@
     <div class="section section-about-us">
       <div class="container">
         <div class="row" style="opacity: 0.85">
-          <div class="col-md-8 ml-auto mr-auto text-center">
+          <div
+            :class="
+              isMobile ? 'col-md-8 ml-auto mr-auto text-center' : 'semdisplay'
+            ">
             <transition appear="">
               <h2
                 class=""
                 id="povo"
                 style="
-                  text-transform: uppercase;
-                  color: aliceblue;
+                  color: #ffff;
                   font-weight: bold;
+                  text-align: center;
+                  background-color: #f15a01;
+                  padding: 20px;
+                  border-radius: 10px;
+                  font-size: 250%;
                 ">
                 O povo pediu, a mudança chegou!
               </h2>
@@ -396,12 +437,25 @@ export default {
   },
   data() {
     return {
+      isMobile: false,
       form: {
         firstName: '',
         email: '',
         message: '',
       },
     };
+  },
+  created() {
+    this.checkWindowSize();
+    window.addEventListener('resize', this.checkWindowSize);
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.checkWindowSize);
+  },
+  methods: {
+    checkWindowSize() {
+      this.isMobile = window.innerWidth <= 768; // Defina a largura que você considera como mobile
+    },
   },
 };
 </script>
@@ -463,5 +517,8 @@ hr {
 }
 .wppbtn {
   padding: 20px 40px;
+}
+.semdisplay {
+  display: none;
 }
 </style>
